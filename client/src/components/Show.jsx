@@ -7,7 +7,7 @@ const Show = () => {
 
     useEffect(() => {
         getAllProducts();
-    }, []);
+    }, [allProducts]);
 
     function getAllProducts() {
         axios.get("http://localhost:8000/api/products")

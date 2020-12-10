@@ -22,7 +22,7 @@ const Form = () => {
           setPrice(0)
           setDescription("")
           setErrors({})
-          window.location.reload();
+          // window.location.reload();
         }
       }).catch(err => {
         console.error(err);
